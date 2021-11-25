@@ -1,5 +1,5 @@
 {
-  "name": "rasterizehtml",
+  "name": "@yvescabral/rasterizehtml",
   "title": "rasterizeHTML.js",
   "version": "1.3.0",
   "description": "Renders HTML into the browser's canvas.",
@@ -8,15 +8,14 @@
     "HTML"
   ],
   "homepage": "http://www.github.com/cburgmer/rasterizeHTML.js",
-  "bugs": "https://github.com/cburgmer/rasterizeHTML.js/issues",
-  "license": "MIT",
-  "author": {
-    "name": "Christoph Burgmer",
-    "email": "christoph.burgmer@gmail.com"
+  "bugs": {
+    "url": "https://github.com/cburgmer/rasterizeHTML.js/issues"
   },
+  "license": "MIT",
+  "author": "Christoph Burgmer <christoph.burgmer@gmail.com>",
   "directories": {
-    "lib": "./src/",
-    "example": "./examples/"
+    "example": "examples",
+    "test": "test"
   },
   "main": "dist/rasterizeHTML.js",
   "types": "dist/rasterizeHTML.d.ts",
