@@ -1,3 +1,7 @@
+if (typeof window === 'undefined') {
+    global.window = {}
+}
+
 var browser = (function (util, proxies, sanedomparsererror, theWindow) {
     "use strict";
 
